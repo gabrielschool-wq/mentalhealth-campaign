@@ -144,7 +144,7 @@
   </section>
 
   <footer>
-    <p>&copy; 2025 Mental Health Awareness Campaign</p>
+    <p>&copy; 2025 Mental Health Awareness Campaign | Powered by <strong>GURT.inc</strong></p>
   </footer>
 </body>
 </html>
