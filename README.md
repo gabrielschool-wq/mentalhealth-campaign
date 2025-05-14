@@ -194,7 +194,7 @@
     <p>Meet the team behind the Mental Health Matters campaign:</p>
     <div class="team">
       <div class="team-member">
-        <img src=":https://i.imgur.com/qbrTl1o_d.webp?maxwidth=760&fidelity=grand">
+        <img src="https://i.imgur.com/qbrTl1o_d.webp?maxwidth=760&fidelity=grand">
         <p><strong>Ben</strong><br>Creative Lead</p>
       </div>
       <div class="team-member">
