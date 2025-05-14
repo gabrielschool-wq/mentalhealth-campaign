@@ -136,15 +136,15 @@
     <div class="team">
       <div class="team-member">
         <img src="your-image1.jpg" alt="Team Member 1">
-        <p><strong>Alex Rivera</strong></p>
+        <p><strong>Max</strong></p>
       </div>
       <div class="team-member">
         <img src="your-image2.jpg" alt="Team Member 2">
-        <p><strong>Jordan Lee</strong></p>
+        <p><strong>Gabriel</strong></p>
       </div>
       <div class="team-member">
         <img src="your-image3.jpg" alt="Team Member 3">
-        <p><strong>Taylor Kim</strong></p>
+        <p><strong>Ben</strong></p>
       </div>
     </div>
   </section>
