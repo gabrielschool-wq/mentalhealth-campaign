@@ -194,15 +194,15 @@
     <p>Meet the team behind the Mental Health Matters campaign:</p>
     <div class="team">
       <div class="team-member">
-        <img src="https://i.imgur.com/j6O4Klu.jpeg" alt="Ben">
+        <img src=":https://i.imgur.com/qbrTl1o_d.webp?maxwidth=760&fidelity=grand">
         <p><strong>Ben</strong><br>Creative Lead</p>
       </div>
       <div class="team-member">
-        <img src="https://i.imgur.com/VTS9M9f.jpeg" alt="Max">
+        <img src="https://i.imgur.com/8Jahnx0_d.webp?maxwidth=1520&fidelity=grand">
         <p><strong>Max</strong><br>Technical Director</p>
       </div>
       <div class="team-member">
-        <img src="https://i.imgur.com/2Er0Oeu.jpeg" alt="Gabriel">
+        <img src=" https://i.imgur.com/Osh2LaY_d.webp?maxwidth=760&fidelity=grand">
         <p><strong>Gabriel</strong><br>Event Coordinator</p>
       </div>
     </div>
