@@ -2,78 +2,67 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Staff Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Camp Info</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
+      background-color: #f9f9f9;
       margin: 0;
       padding: 0;
     }
-
     header {
-      background-color: #333;
-      color: #fff;
-      padding: 20px 0;
+      background-color: #005792;
+      color: white;
+      padding: 20px;
       text-align: center;
     }
-
-    .container {
-      width: 90%;
-      max-width: 1000px;
-      margin: 20px auto;
+    section {
+      padding: 20px;
     }
-
     h2 {
-      text-align: center;
-      margin-top: 40px;
+      color: #005792;
     }
-
-    .staff-section {
+    .staff {
       display: flex;
-      justify-content: space-around;
       flex-wrap: wrap;
+      justify-content: space-around;
     }
-
     .staff-member {
-      background-color: #fff;
+      background: white;
       border: 1px solid #ddd;
       border-radius: 8px;
-      width: 30%;
       margin: 10px;
-      padding: 15px;
-      text-align: center;
+      padding: 10px;
+      width: 250px;
       box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
     }
-
     .staff-member img {
       width: 100%;
-      height: auto;
       border-radius: 8px;
     }
-
     .uniform-section {
       display: flex;
-      justify-content: space-around;
       flex-wrap: wrap;
+      justify-content: space-around;
       margin-top: 40px;
     }
-
     .uniform-section img {
       width: 30%;
       border-radius: 8px;
       box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+      margin: 10px;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Our Staff</h1>
+    <h1>Camp Overview</h1>
   </header>
-
-  <div class="container">
-    <h2>Meet the Team</h2>
-    <div class="staff-section">
+  <section>
+    <h2>Meet the Staff</h2>
+    <div class="staff">
       <div class="staff-member">
         <img src="/mnt/data/DD143A92-13E8-42D4-B99A-4CB05D8DB9AD.jpeg" alt="Ben">
         <h3>Ben</h3>
@@ -90,15 +79,14 @@
         <p>Event Coordinator</p>
       </div>
     </div>
-
+  </section>
+  <section>
     <h2>Uniform Examples</h2>
     <div class="uniform-section">
-      <!-- Add uniform images here -->
       <img src="uniform1.jpg" alt="Uniform 1">
       <img src="uniform2.jpg" alt="Uniform 2">
       <img src="uniform3.jpg" alt="Uniform 3">
     </div>
-  </div>
+  </section>
 </body>
 </html>
-
