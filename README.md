@@ -73,6 +73,19 @@
       border-radius: 50%;
       border: 3px solid #4db6ac;
     }
+    .video-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    iframe {
+      width: 100%;
+      max-width: 800px;
+      height: 450px;
+      border: none;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
   </style>
 </head>
 <body>
@@ -88,6 +101,7 @@
     <a href="#action">Take Action</a>
     <a href="#team">About Us</a>
     <a href="#partners">Our Work</a>
+    <a href="#ad">Our Ad</a>
   </nav>
 
   <section id="about">
@@ -141,6 +155,13 @@
       <li><strong>Nike:</strong> Partnered on a youth resilience campaign promoting active mental health habits.</li>
       <li><strong>Google:</strong> Helped develop an educational resource hub on YouTube for mental health awareness.</li>
     </ul>
+  </section>
+
+  <section id="ad">
+    <h2>Our Campaign Video</h2>
+    <div class="video-container">
+      <iframe src="https://www.youtube.com/embed/JdMmBY5L0ow" allowfullscreen></iframe>
+    </div>
   </section>
 
   <footer>
