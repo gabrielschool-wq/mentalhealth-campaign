@@ -93,8 +93,16 @@
 
     .team-member img {
       width: 100%;
-      border-radius: 50%;
+      height: auto;
+      border-radius: 10px;
       border: 3px solid #4db6ac;
+    }
+
+    .uniform-section {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 20px;
     }
 
     .uniform-section img {
@@ -186,15 +194,15 @@
     <p>Meet the team behind the Mental Health Matters campaign:</p>
     <div class="team">
       <div class="team-member">
-        <img src="/mnt/data/DD143A92-13E8-42D4-B99A-4CB05D8DB9AD.jpeg" alt="Ben">
+        <img src="https://i.imgur.com/j6O4Klu.jpeg" alt="Ben">
         <p><strong>Ben</strong><br>Creative Lead</p>
       </div>
       <div class="team-member">
-        <img src="/mnt/data/55E76CB0-7890-470F-BD78-8D30A59BB771.jpeg" alt="Max">
+        <img src="https://i.imgur.com/VTS9M9f.jpeg" alt="Max">
         <p><strong>Max</strong><br>Technical Director</p>
       </div>
       <div class="team-member">
-        <img src="/mnt/data/341D2D3D-562C-4BEB-B3DC-32276BD8639F.jpeg" alt="Gabriel">
+        <img src="https://i.imgur.com/2Er0Oeu.jpeg" alt="Gabriel">
         <p><strong>Gabriel</strong><br>Event Coordinator</p>
       </div>
     </div>
@@ -217,9 +225,9 @@
       <p><strong>We value our employees' comfort because we believe they work best and are most creative when comfortable.</strong></p>
     </div>
     <div class="uniform-section">
-      <img src="https://images.unsplash.com/photo-1588776814546-ec03f29c4c09" alt="Casual Clothes 1" />
-      <img src="https://images.unsplash.com/photo-1600185365929-3f494a4d3c9f" alt="Casual Clothes 2" />
-      <img src="https://images.unsplash.com/photo-1520975922203-6ca4a1b66703" alt="Casual Clothes 3" />
+      <img src="https://images.unsplash.com/photo-1588776814546-ec03f29c4c09" alt="Uniform 1">
+      <img src="https://images.unsplash.com/photo-1600185365929-3f494a4d3c9f" alt="Uniform 2">
+      <img src="https://images.unsplash.com/photo-1520975922203-6ca4a1b66703" alt="Uniform 3">
     </div>
   </section>
 
