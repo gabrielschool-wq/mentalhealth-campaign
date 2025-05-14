@@ -1,92 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Camp Info</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f9f9f9;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background-color: #005792;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-    section {
-      padding: 20px;
-    }
-    h2 {
-      color: #005792;
-    }
-    .staff {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-    }
-    .staff-member {
-      background: white;
-      border: 1px solid #ddd;
-      border-radius: 8px;
-      margin: 10px;
-      padding: 10px;
-      width: 250px;
-      box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
-      text-align: center;
-    }
-    .staff-member img {
-      width: 100%;
-      border-radius: 8px;
-    }
-    .uniform-section {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      margin-top: 40px;
-    }
-    .uniform-section img {
-      width: 30%;
-      border-radius: 8px;
-      box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
-      margin: 10px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Palace</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff8f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ff6347;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        nav {
+            background-color: #ffa07a;
+            padding: 0.5rem;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 2rem;
+        }
+
+        h2 {
+            color: #ff6347;
+        }
+
+        .staff-member {
+            display: inline-block;
+            text-align: center;
+            margin: 1rem;
+        }
+
+        .staff-member img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 2px solid #ff6347;
+        }
+
+        .uniform-img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+            border: 2px solid #ff6347;
+        }
+
+        footer {
+            background-color: #ff6347;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
 </head>
+
 <body>
-  <header>
-    <h1>Camp Overview</h1>
-  </header>
-  <section>
-    <h2>Meet the Staff</h2>
-    <div class="staff">
-      <div class="staff-member">
-        <img src="/mnt/data/DD143A92-13E8-42D4-B99A-4CB05D8DB9AD.jpeg" alt="Ben">
-        <h3>Ben</h3>
-        <p>Creative Lead</p>
-      </div>
-      <div class="staff-member">
-        <img src="/mnt/data/55E76CB0-7890-470F-BD78-8D30A59BB771.jpeg" alt="Max">
-        <h3>Max</h3>
-        <p>Technical Director</p>
-      </div>
-      <div class="staff-member">
-        <img src="/mnt/data/341D2D3D-562C-4BEB-B3DC-32276BD8639F.jpeg" alt="Gabriel">
-        <h3>Gabriel</h3>
-        <p>Event Coordinator</p>
-      </div>
-    </div>
-  </section>
-  <section>
-    <h2>Uniform Examples</h2>
-    <div class="uniform-section">
-      <img src="uniform1.jpg" alt="Uniform 1">
-      <img src="uniform2.jpg" alt="Uniform 2">
-      <img src="uniform3.jpg" alt="Uniform 3">
-    </div>
-  </section>
+    <header>
+        <h1>Welcome to Pizza Palace</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#staff">Staff</a>
+        <a href="#uniform">Uniform</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Pizza Palace is your go-to spot for the best pizza in town. We combine fresh ingredients, traditional recipes,
+            and excellent service to bring you a delightful dining experience.</p>
+    </section>
+
+    <section id="staff">
+        <h2>Meet Our Staff</h2>
+        <div class="staff-member">
+            <img src="/mnt/data/DD143A92-13E8-42D4-B99A-4CB05D8DB9AD.jpeg" alt="Ben with cat ears">
+            <p>Ben</p>
+        </div>
+        <div class="staff-member">
+            <img src="/mnt/data/55E76CB0-7890-470F-BD78-8D30A59BB771.jpeg" alt="Max with glasses">
+            <p>Max</p>
+        </div>
+        <div class="staff-member">
+            <img src="/mnt/data/341D2D3D-562C-4BEB-B3DC-32276BD8639F.jpeg" alt="Gabriel with clown makeup">
+            <p>Gabriel</p>
+        </div>
+    </section>
+
+    <section id="uniform">
+        <h2>Uniform</h2>
+        <p>Our team wears comfortable and professional uniforms that represent our fun and friendly environment. Here is an example:</p>
+        <img src="/mnt/data/341D2D3D-562C-4BEB-B3DC-32276BD8639F.jpeg" alt="Gabriel uniform example" class="uniform-img">
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Pizza Palace. All rights reserved.</p>
+    </footer>
 </body>
+
 </html>
