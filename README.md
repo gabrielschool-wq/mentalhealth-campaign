@@ -80,3 +80,44 @@
       flex-wrap: wrap;
       margin-top: 20px;
     }
+    .uniform-images img {
+      max-width: 300px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mental Health Matters</h1>
+    <p>Promoting awareness, support, and action</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#stigma">Break the Stigma</a>
+    <a href="#resources">Get Help</a>
+    <a href="#action">Take Action</a>
+    <a href="#team">About Us</a>
+    <a href="#partners">Our Work</a>
+    <a href="#uniform">Uniform</a>
+    <a href="#story">Our Story</a>
+    <a href="#video">Watch Ad</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Mental Health</h2>
+    <p>Mental health includes our emotional, psychological, and social well-being. It affects how we think, feel, and act. Taking care of our mental health is just as important as taking care of our physical health.</p>
+  </section>
+
+  <section id="stigma">
+    <h2>Breaking the Stigma</h2>
+    <p>Many people are afraid to talk about mental health. Our goal is to normalize these conversations, spread accurate information, and support those who may be struggling. Let's make it okay to not be okay.</p>
+  </section>
+
+  <section id="resources">
+    <h2>Get Help</h2>
+    <ul>
+      <li><strong>School Counselor:</strong> Talk to your school counselor anytime you feel overwhelmed.</li>
+      <li><strong>988 Suicide & Crisis Lifeline:</strong> Call or text 988 for free and confidential help
